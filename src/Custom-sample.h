@@ -482,6 +482,7 @@ static const char DATA_ESPEASY_DEFAULT_MIN_CSS[] PROGMEM = {
 // #define P143_FEATURE_INCLUDE_M5STACK      0 // Enabled by default, can be turned off here
 // #define P143_FEATURE_INCLUDE_DFROBOT      0 // Enabled by default, can be turned off here
 // #define P143_FEATURE_COUNTER_COLORMAPPING 0 // Enabled by default, can be turned off here
+// #define USES_P149   // Linear Actuator
 
 // #define USES_P128   // NeoPixelBusFX
 // #define P128_USES_GRB  // Default

@@ -1448,6 +1448,7 @@ To create/register a plugin, you have to :
     //#define USES_P099   // XPT2046 Touchscreen
     #define USES_P105   // AHT10/20/21
     #define USES_P134   // A02YYUW
+    #define USES_P149   // A02YYUW
 #endif
 
 #ifdef PLUGIN_SET_COLLECTION_B
@@ -2083,6 +2084,9 @@ To create/register a plugin, you have to :
   #endif
   #ifndef USES_P146
     #define USES_P146   // Cache Controller Reader
+  #endif
+  #ifndef USES_P149
+    #define USES_P149   // Linear Actuator
   #endif
 
 
